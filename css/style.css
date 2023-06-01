@@ -1,0 +1,61 @@
+#carouselExampleCaptions {
+    width: 60%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main {
+    background-color: rgb(245, 219, 219);
+
+}
+
+.btn {
+    border: 2px solid rgba(108, 89, 179, 0.75);
+}
+
+.cards {
+    display: flex;
+
+}
+
+.container_new {
+    position: relative;
+    width: 50%;
+}
+
+/* Make the image responsive */
+.container_new img {
+    width: 100%;
+    height: auto;
+}
+
+/* Style the button and place it in the middle of the container/image */
+.container_new .btn_n {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container_new .btn_n:hover {
+    background-color: black;
+}
+
+/* .container_color {
+} */
+
+.purple_color {
+
+     background-color: #252e56;
+     padding: 100px;
+
+}
